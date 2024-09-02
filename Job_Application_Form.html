@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application_Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div id="border">
+        <form class="border">
+            <h1>Application_Form</h1>
+            <table>
+                <tr>
+                    <td>Title:</td>
+                    <td><input type="radio" name="Title" value="Rev">Rev<input type="radio" name="Title" value="Mr">Mr<input type="radio" name="Title" value="Mrs">Mrs<input type="radio" name="Title" value="Miss">Miss</td>
+                    
+                </tr> 
+
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="textbox"></td>
+                   
+                </tr> 
+
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="number" min="1"></td>
+                </tr>     
+
+                <tr>
+                    <td>NIC:</td>
+                    <td><input type="textbox"></td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="Address" id="Address"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female</td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email"></td>
+                </tr>
+
+                <tr>
+                    <td>Image:</td>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td>Possission:</td>
+                    <td>
+                        <select >
+                            <option>Select</option>
+                            <option>Manager</option>
+                            <option>Office Assistant</option>
+                            <option>IT Intern</option>
+                            <option>Senior Software Engineer </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>District</td>
+                    <td>
+                        <select style="width: 160px" 
+                        size="5" multiple>
+                            <option>Gampaha</option>
+                            <option>Colombo</option>
+                            <option>Jaffna</option>
+                            <option>Kandy</option>
+                            <option>Kalutara</option>
+                            <option>Matale</option>
+                            <option>Galle</option>
+                            <option>Matara</option>
+                            <option>Nuwara Eliya</option>
+                            <option>Kurunegala</option>
+                            <option>Badulla</option>
+                            <option>Kegalle</option>
+                            <option>Hambantota</option>
+                        </select>
+                    </td>
+                </tr>
+
+                
+                
+            </table>
+            <div class="button">
+                <input type="Submit" id="button" class="b1">
+                <input type="Reset" class="b1">
+            </div>
+        </form>
+       </div>
+        
+    </body>
+</html>

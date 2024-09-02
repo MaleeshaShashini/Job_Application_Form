@@ -1,0 +1,22 @@
+#border{
+    border: 1px solid black;
+    margin: 40px;
+    padding: 40px;
+    width: 350px;
+    color: rgb(1, 8, 20);
+    background-color: lavender;
+   }
+td{
+    padding-top: 20px;
+    padding-right: 40px;
+}
+#button{
+    margin-right: 60px;
+}
+.button{
+    margin-top: 40px;
+}
+.b1{
+    padding-top:7px;
+    padding-right:10px;
+}
